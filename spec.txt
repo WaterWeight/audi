@@ -1,0 +1,55 @@
+A1 SPORTBACK:
+juz od 105 000zl
+0-100: 10.5s
+emisja CO2: 132-123g/km
+spalanie: 5,8 - 5,4l/100
+MOC: 81KW (110KM)
+6 biegowa skrzynia
+
+S3 SPORTBACK:
+od 110 500zł
+0-100: 10.6s
+emisja: 136-125 g/km
+spalanie: 6.0 - 5.5l/100km
+Moc: 81KW (110km)
+6 biegowa skrzynia
+
+S3 SPORTBACK:
+207 000zł
+0-100: 4.8
+emisja: 188-183g/km
+spalanie: 8.3-8.0l/100km
+Moc: 228kW (310KM)
+Automatyczna skrzynia S tronic
+
+RS3 SPORTBACK:
+291 900zł
+0-100: 3.8s
+emisja: 216-205g/km
+spalanie: 9.5 - 9.0l/100km
+Moc: 294kW (400KM)
+Automatyczna skrzynia S tronic
+
+A4 AVANT:
+163 200zł
+0-100: 9.2s
+emisja: 167 - 142g/km
+spalanie: 7.4-6.3l/100km
+Moc: 110kW(150KM)
+Automatyczna skrzynia S tronic
+
+S4 AVANT:
+356 100zł
+0-100: 4.7s 
+emisja: 197-188g/km
+spalanie: 7.5-7.2l/100km
+Moc: 251kW (341KM)
+Automatyczna skrzynia Tiptronic
+
+RS4 AVANT:
+443 800zł
+0-100: 4.1s
+emisja: 229-220g/km
+spalanie: 10.1l - 9.7l/km
+Moc: 331kW (450KM)
+Atomatyczna skrzynia Tiptronic
