@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.Logo{
+    padding-left: 10px;
+    height: 35px;
+    width: 120px;
+    padding-right: 10px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dddddd;
+    color: black;
+    height: 75px;
+    animation: NavOp 2.5s, NavSlide 1s;
+}
+
+.navbar-przyciski ul {
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.navbar-przyciski li {
+    list-style: none;
+}
+
+.navbar-przyciski li a {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: black;
+}
+
+.navbar-przyciski {
+    margin-right: auto;
+}
+
+.navbar-przyciski a {
+    transition: 0.3s;
+}
+
+
+.navbar-przyciski-SLIM ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 85px;
+    /*display: flex;*/
+    height: 100px;
+    }
+
+.navbar-przyciski-SLIM li {
+    list-style: none;
+    width: 300px;
+    background-color: #dddddd;
+}
+
+.navbar-przyciski-SLIM li a {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: black;
+}
+
+.navbar-przyciski-SLIM {
+    border-radius: 2px;
+    padding-left: 130px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
+}
+
+.navbar-przyciski-SLIM a {
+    transition: 0.3s;
+}
+
+
+.tp{
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.tp .Linia{
+    height: 3px;
+    width: 100%;
+    background-color:black;
+    border-radius: 10px;
+}
+
+
+.WZ{
+    display: none;
+}
+
+
+.Footer{
+    height: 500px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color:  black;
+    color: white;
+}
+
+.Footer .navbar-przyciski li a {
+    color: white;
+}
+
+.Footer .navbar-przyciski li{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Footer .Useless-Info{
+    padding: 0;
+    margin: 0;
+    padding-left: 100px;
+    padding-bottom: 0;
+    background-color: black;
+}
+
+
+.navbar a:hover{
+    color: rgb(105, 105, 105);
+    font-size: 30;
+    letter-spacing: 1px;
+    transition: 0.15s;
+}
+
+.Footer a:hover{
+    color: rgb(105, 105, 105);
+    font-size: 30;
+    letter-spacing: 1px;
+    transition: 0.15s;
+}
+
+
+.Modele:hover #Podtabela-Modele{
+    display:block;
+}
+
+@keyframes NavOp {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes NavSlide {
+    0%{margin-top: 40px;}
+    100%{margin-top: 0;}
+}
+
+
+@media (max-width: 780px) {
+
+    .tp{
+        display: flex;
+    }
+
+    .navbar-przyciski{
+        display: none;
+    }
+
+    .navbar-przyciski-SLIM{
+        display: none;
+    }
+}
