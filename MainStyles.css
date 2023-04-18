@@ -6,131 +6,223 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.OIP-Header{
+    text-align: center;
+    height: 700px;
+}
+
+table,td,tr{
+
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+}
+
 #TS{
     background-color: #dddddd;
     display: flex;
 }
 
+.HImg .HImg-Obraz{
+    background-image: url('OAC.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    padding: 0;
+    margin-top: 200px;
+    margin-left: 250px;
+    inset: 0;
+    z-index: -1;
+}
+
+.History{
+    padding: 0;
+    padding-left: 250px;
+}
+
+.History img{
+    height: 300px;
+    width: 500px;
+}
+
+.HImg-Obraz #HImg-Obraz-T{
+    position: relative;
+    color: black;
+    background-color: white;
+    margin: 0;
+    margin-top: 0;
+    margin-left: 100px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+
 .Auto1 {
+    box-shadow: inset 0 0 25px 25px #000;
     background: transparent;
     background-image: url(1st.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-left: 0;
     margin-right: 0;
-    position: relative;
-    height: 800px;
+    position: relative; /*abs*/
+    /*margin-top: 75px; */
+    height: 900px;
     inset: 0;
+    z-index: -1;
 
-    animation: A1Op 3s, NavSlide 1.5s;
+    animation: A1Op 3s, A1Slide 1.5s;
+}
+
+.Auto1 .PodAuto1{
+    position: relative;
+    color:white;
+    margin: 0;
+    padding: 0;
+    padding-left: 100px;
+    padding-top: 600px;
+}
+
+.Auto2{
+    box-shadow: inset 0 0 25px 25px #000;
+    background: transparent;
+    background-image: url(ElektromobilnoscZdjecia/1Ele.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative; /*abs*/
+    /*margin-top: 75px; */
+    height: 950px;
+    inset: 0;
+    z-index: -1;
+
+    animation: A1Op 3s, A1Slide 1.5s;
+}
+
+.Auto2 h1{
+position: absolute;
+margin-left: 75%;
+ font-size: 50px;
+ color: white;   
+}
+
+.Auto3{
+    box-shadow: inset 0 0 25px 25px #000;
+    background: transparent;
+    background-image: url(OfertyPorady/1Ele.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative; /*abs*/
+    /*margin-top: 75px; */
+    height: 500px;
+    inset: 0;
+    z-index: -1;
+
+    animation: A1Op 3s, A1Slide 1.5s;
+}
+
+.Auto3 h1{
+position: absolute;
+margin-left: 75%;
+ font-size: 50px;
+ color: white;   
+}
+
+.Elektr{
+    text-align: center;
+    height: 500px;
+    width: 100%;
+}
+
+.Auta{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 900px;
+    inset: 0;
+    z-index: -1;
+    animation: AAOp 3s, AASlide 1.5s;
+    text-align: center;
+}
+
+.Auta #PodAuta{
+    position: relative;
+    height: 500px;
+    width: 550px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 350px;
 }
 
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-}
-
-.Logo{
-    padding-left: 10px;
-    height: 35px;
-    width: 120px;
-    padding-right: 10px;
+    overflow: scroll;
+    scroll-behavior: smooth;
 }
 
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #dddddd;
-    color: black;
-    height: 75px;
-    animation: NavOp 2.5s, NavSlide 1s;
-}
-
-.navbar-przyciski ul {
-margin: 0;
-padding: 0;
-display: flex;
-}
-
-.navbar-przyciski li {
-    list-style: none;
-}
-
-.navbar-przyciski li a {
-    cursor: pointer;
-    text-decoration: none;
-    padding: 10px;
-    display: block;
-    color: black;
-}
-
-.navbar-przyciski {
-    margin-right: auto;
-}
-
-.navbar-przyciski a {
-    transition: 0.3s;
-}
-
-.tp{
-    position: absolute;
-    right: 5px;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-
-.tp .Linia{
-    height: 3px;
+.Photos{
+    height: 906px;
     width: 100%;
-    background-color:black;
-    border-radius: 10px;
+    position: relative;
 }
 
-#Podtabela-Modele{
-    display: none;
-    background-color: #dddddd;
+.Photos div{
+    margin-top: 2px;
+}
+
+.Left1{
+    float: left;
+    width: 25%;
+    background-color: blue;
+    height: 300px;
+}
+
+.Left2{
+    float: left;
+    width: 75%;
+    background-color: blue;
+    height: 300px;
+}
+
+.Left3{
+    float: left;
+    width: 25%;
+    background-color: blue;
+    height: 300px;
 }
 
 
-
-@media (max-width: 770px) {
-    .tp{
-        display: flex;
-    }
-
-    .navbar-przyciski{
-        display: none;
-    }
+.Right1{
+    float: right;
+    width: 74.85%;
+    background-color: red;
+    height: 300px;
+    margin-left: 2px;
 }
 
-.navbar a:hover{
-    color: rgb(105, 105, 105);
-    font-size: 30;
-    letter-spacing: 1px;
-    transition: 0.15s;
+.Right2{
+    float: right;
+    width: 24.85%;
+    background-color: red;
+    height: 300px;
+    margin-left: 2px;
 }
 
-
-
-.Modele:hover #Podtabela-Modele{
-    display:block;
+.Right3{
+    float: right;
+    width: 74.85%;
+    background-color: red;
+    height: 300px;
+    margin-left: 2px;
 }
 
-@keyframes NavOp {
-    0%{opacity: 0;}
-    100%{opacity: 1;}
-}
-
-@keyframes NavSlide {
-    0%{margin-top: 40px;}
-    100%{margin-top: 0;}
-}
 
 @keyframes A1Op {
     0%{opacity: 0;}
@@ -138,6 +230,31 @@ display: flex;
 }
 
 @keyframes A1Slide {
-    0%{margin-top: 40px;}
-    100%{margin-top: 0;}
+    0%{margin-top: 75px;}
+    100%{margin-top: 0px;}
+}
+
+@media (max-width:1350px) {
+    .Photos{
+        height: 1812px;
+    }
+    .Left1{
+        width: 100%;
+    }
+    .Left2{
+        width: 100%;
+    }
+    .Left3{
+        width: 100%;
+    }
+
+    .Right1{
+        width: 100%;
+    }
+    .Right2{
+        width: 100%;
+    }
+    .Right3{
+        width: 100%;
+    }
 }
