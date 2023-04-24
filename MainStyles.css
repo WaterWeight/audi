@@ -8,7 +8,7 @@
 
 .OIP-Header{
     text-align: center;
-    height: 700px;
+    height: 1700px;
 }
 
 table,td,tr{
@@ -57,6 +57,132 @@ text-align: left;
     text-align: center;
 }
 
+.Auto4 {
+    box-shadow: inset 0 0 25px 25px #000;
+    background: transparent;
+    background-image: url(SerwisIAkcesoriaZdjecia/1Ele.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative; /*abs*/
+    /*margin-top: 75px; */
+    height: 900px;
+    inset: 0;
+    z-index: -1;
+
+    animation: A1Op 3s, A1Slide 1.5s;
+}
+
+.Modele-Auta{
+    margin-left: 225px;
+    animation: MAOp 3s, MASlide 1.5s;
+}
+
+.Modele-Auta img{
+    height: 150px;
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.Modele-Auta button{
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Modele-Auta ul li{
+    list-style: none;
+    }
+
+.Modele-Auta li {
+padding-top: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#PreviewN{
+    display: none;
+}
+
+#Preview{
+    background-color: #dddddd;
+    width: 800px;
+    border-radius: 10px;
+    display: block;
+}
+
+#Inner-Preview{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.Modele-Auta div{
+    padding-right: 25px;
+}
+
+.SIA-Info{
+    text-align: center;
+    font-size: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    height: 2100px;
+}
+
+.SIA-Info-Inner ul {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.SIA-Info-Inner3 ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+
+.SIA-Info-Inner3 img {
+    height: 350px;
+    width: 450px;
+}
+
+.SIA-Info-Inner ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+    
+.SIA-Info li {
+    list-style: none;
+}
+
+.SIA-Info h4{
+    text-align: center;
+    font-size: 45px;
+
+}
+
+.Auto4 .PodAuto1{
+    font-size: 80px;
+    position: relative;
+    color:white;
+    margin: 0;
+    padding: 0;
+    padding-left: 700px;
+    padding-top: 10px;
+}
+
 .Auto1 {
     box-shadow: inset 0 0 25px 25px #000;
     background: transparent;
@@ -93,7 +219,7 @@ text-align: left;
     margin-right: 0;
     position: relative; /*abs*/
     /*margin-top: 75px; */
-    height: 950px;
+    height: 1050px;
     inset: 0;
     z-index: -1;
 
@@ -168,7 +294,7 @@ body {
 
 
 .Photos{
-    height: 906px;
+    height: 1806px;
     width: 100%;
     position: relative;
 }
@@ -177,52 +303,79 @@ body {
     margin-top: 2px;
 }
 
+.Photos h1{
+    color: white;
+    padding-left: 25px;
+}
+
 .Left1{
     float: left;
     width: 25%;
-    background-color: blue;
-    height: 300px;
+    background: url(ElektromobilnoscZdjecia/2Ele.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
 }
 
 .Left2{
     float: left;
     width: 75%;
-    background-color: blue;
-    height: 300px;
+    background: url(ElektromobilnoscZdjecia/4Ele.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
 }
 
 .Left3{
     float: left;
     width: 25%;
-    background-color: blue;
-    height: 300px;
+    background: url(ElektromobilnoscZdjecia/6Ele.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
 }
 
 
 .Right1{
     float: right;
     width: 74.85%;
-    background-color: red;
-    height: 300px;
+    background: url(ElektromobilnoscZdjecia/3Ele.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
     margin-left: 2px;
 }
 
 .Right2{
     float: right;
     width: 24.85%;
-    background-color: red;
-    height: 300px;
+    background: url(ElektromobilnoscZdjecia/5Ele.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
     margin-left: 2px;
 }
 
 .Right3{
     float: right;
     width: 74.85%;
-    background-color: red;
-    height: 300px;
+    background: url(ElektromobilnoscZdjecia/7Ele.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
     margin-left: 2px;
 }
 
+
+@keyframes MAOp {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes MASlide {
+    0%{margin-top: 75px;}
+    100%{margin-top: 0px;}
+}
 
 @keyframes A1Op {
     0%{opacity: 0;}
@@ -236,7 +389,7 @@ body {
 
 @media (max-width:1350px) {
     .Photos{
-        height: 1812px;
+        height: 3612px;
     }
     .Left1{
         width: 100%;
