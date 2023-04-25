@@ -248,13 +248,15 @@ global[variableToString({ Q8 })] = Q8;
 
 
 function CarPreview(Caller){
-  document.getElementById('Nazwa').innerHTML = "Model: ";   document.getElementById('Nazwa').innerHTML += Caller.id;
+  document.getElementById('Nazwa').innerHTML = "Model: ";   document.getElementById('Nazwa').innerHTML += global[Caller.id][1];
   document.getElementById('Cena').innerHTML = "Cena: ";   document.getElementById('Cena').innerHTML += global[Caller.id][2];
   document.getElementById('Emisja').innerHTML = "Emisja: ";   document.getElementById('Emisja').innerHTML += global[Caller.id][3];
   document.getElementById('Spalanie').innerHTML = "Spalanie: ";   document.getElementById('Spalanie').innerHTML += global[Caller.id][4];
   document.getElementById('Moc').innerHTML = "Moc: ";   document.getElementById('Moc').innerHTML += global[Caller.id][5];
   document.getElementById('Silnik').innerHTML = "Silnik: ";   document.getElementById('Silnik').innerHTML += global[Caller.id][7];
   document.getElementById('Skrzynia').innerHTML = "Skrzynia biegów: ";   document.getElementById('Skrzynia').innerHTML += global[Caller.id][6];
+    if (document.getElementById('PreviewN')){
   document.getElementById('PreviewN').id  = "Preview";
+   }
   document.getElementById('Preview').scrollIntoView();
 }
